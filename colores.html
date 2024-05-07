@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Colores</title>
+</head>
+<body class="body">
+    <h1>Selecciona tu color favorito</h1>
+    <input id="morado" type="button" value="Color Morado">
+    <input id="verde" type="button" value="Color Verde">
+    <input id="naranja" type="button" value="Color Naranja">
+    <hr>
+    <section class="contenedor">
+        <section class="conten">
+            <input class="color" id="amarillo" type="button" value="Color Amarillo">
+            <input class="color" id="azul" type="button" value="Color Azul">
+            <input class="color" id="rojo" type="button" value="Color Rojo">
+            <input class="color" id="gris" type="button" value="Color Gris">
+            <input class="color" id="sinColor" type="button" value="Sin Color">
+        </section>
+        <article>
+            <p>👻</p>
+        </article>
+    </section><hr>
+    <section class="nombres">
+        <h1>Ingresa Tu Nombre</h1>
+        <label for="ingresar">Nombre</label><br>
+        <input class="contenido" type="name-user"type = "text"><br>
+        <button class="boton">Enviar</button>
+            <ul class="lista">
+            </ul>
+    </section><hr>
+    <section class="calculadora">
+        <h1>Calculadora</h1>
+        <label for="operacion">Número 1</label><br>
+        <input class="number1" id="numbers" type="numbers" type="number"><br>
+        <label for="operacion">Número 2</label><br>
+        <input class="number2" id = "numbers"  type="numbers" type="number"><br>
+        <h2>Operaciones</h2>
+        <button class="boton" onclick="sumardosnumeros()">+</button>
+        <button class="boton" onclick="restardosnumeros()">-</button>
+        <button class="boton" onclick="multiplicardosnumeros()">x</button>
+        <button class="boton" onclick="dividirdosnumeros()">/</button><br>
+        <h2>Resultado</h2>
+        <p class="mostrador"></p>
+    </section><hr>
+    <section class="galeria">
+        <h1 >Galeria</h1>
+        <button class="carrito">Carrito</button>
+    </section>
+    <section class="container">
+        <section class="cards" >
+            <img src="https://i.pinimg.com/564x/23/e2/40/23e240cf2122f5eaa2cc237bd5fb9532.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">Latidos que no te dije</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$56.000 COP</h5>
+            <p class="text1">Una novela emotiva sobre el amor perdido y la búsqueda de la felicidad. Una trama con personajes entrañables que te mantendrá al borde del asiento, tocando el corazón de los lectores.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+        <section class="cards" >
+            <img src="https://i.pinimg.com/564x/6c/90/1d/6c901d5caff7c151476c3655f035993c.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">A través de mi ventana</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$62.000 COP</h5>
+            <p class="text1">Raquel, una chica tímida, se enamora de su misterioso vecino Ares. Su vínculo les revela secretos familiares y los lleva a descubrir el amor en lo cotidiano.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+        <section class="cards" >
+            <img src="https://i.pinimg.com/564x/f7/39/04/f7390413c25c230d3663c5f7649f2480.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">Boulevard</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$75.000 COP</h5>
+            <p class="text1">El encuentro entre Luke, un joven consumidor de drogas, y Hasley. Su relación se desarrolla a pesar de la resistencia inicial de Luke, con una trama que profundiza en la vida y las decisiones.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+        <section class="cards" >
+            <img src="https://i.pinimg.com/564x/84/57/58/845758997e7e3a9aedaef5a8307881c5.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">Damián</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$72.000 COP</h5>
+            <p class="text1">La obsesión de Padme por su vecino Damian la lleva a descubrir una verdad impactante en el bosque. Una historia de secretos y revelaciones que cambiará sus vidas para siempre.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+        <section  class="cards" >
+            <img src="https://i.pinimg.com/564x/4b/44/be/4b44be17546a4c38b067887d57c409b0.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">De sangre y cenizas</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$60.000 COP</h5>
+            <p class="text1"> Poppy es elegida por los dioses como la "Doncella", con restricciones que la protegen pero también la limitan. Una trama de fantasía que explora el destino y la divinidad.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+        <section  class="cards" >
+            <img src="https://i.pinimg.com/564x/fa/5d/46/fa5d46deda43e063f933e95529970519.jpg" class="img" >
+            <article class="card-body">
+            <h5 class="titulo">Nosotros en la luna</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">$48.000 COP</h5>
+            <p class="text1">Un encuentro fugaz en París despierta una conexión especial entre un chico y una chica, pero la realidad los separa. Una historia sobre amor y destino que trasciende el tiempo y el espacio.</p>
+            <a href="#" class="btn">Añadir al carrito</a>
+            </article>
+        </section>
+    </section>
+    <div class="modalCarrito" id = 'modal' tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Carrito</h5>
+                    <button type="button" class="btnCerrar" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Tus libros favoritos ya están en tu carrito</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Realizar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./colores.js"></script>
+</body>
+</html>
