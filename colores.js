@@ -4,8 +4,8 @@ console.log('Trabajando desde JS');
 var body = document.querySelector('body');
 console.log(body);
 
-var amarillo = document.getElementById('amarillo');
-console.log(amarillo);
+var color = document.getElementById('color');
+console.log(color);
 
 var contenedor = document.querySelector('.contenedor');
 console.log(contenedor);
@@ -105,6 +105,8 @@ sinColor.addEventListener('click',
        article.style.backgroundColor = '';
     }
 )
+
+
 boton.addEventListener('click', function(){
     // para obtener el nombre 
     let nombre = contenido.value

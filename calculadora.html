@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="calculadora">
+        <h1>Calculadora</h1>
+        <label for="operacion">Número 1</label><br>
+        <input class="number1" id="numbers" type="numbers" type="number"><br>
+        <label for="operacion">Número 2</label><br>
+        <input class="number2" id = "numbers"  type="numbers" type="number"><br>
+        <h2>Operaciones</h2>
+        <button class="boton" onclick="sumardosnumeros()">+</button>
+        <button class="boton" onclick="restardosnumeros()">-</button>
+        <button class="boton" onclick="multiplicardosnumeros()">x</button>
+        <button class="boton" onclick="dividirdosnumeros()">/</button><br>
+        <h2>Resultado</h2>
+        <p class="mostrador"></p>
+    </section>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
